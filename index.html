@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Cursos</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+
+    <div class="category-container">
+        <button class="category" data-category="All">Todos</button>
+        <button class="category" data-category="Web Development">Desenvolvimento Web</button>
+        <button class="category" data-category="Programming">Programação</button>
+        <button class="category" data-category="Data Science">Ciência de Dados</button>
+    </div>
+    
+    <div class="carousel-container">
+        <button class="arrow left-arrow">&lt;</button>
+        <div class="carousel">
+            <div class="carousel-track">
+                <!-- Cards de cursos serão inseridos aqui pelo JavaScript -->
+            </div>
+        </div>
+        <button class="arrow right-arrow">&gt;</button>
+    </div>
+
+    <script src="cards.js"></script>
+    <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
