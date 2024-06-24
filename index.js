@@ -8,7 +8,7 @@ const courses = [
     {
         "title": "Curso de CSS",
         "description": "Domine o CSS.",
-        "image": "css-course.jpg",
+        "image": "cWeb Development",
         "category": "Web Development"
     },
     {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
-            <img src="s-assets/imgs-s/course/${course.image}" alt="${course.title}">
+            <img src="assets/image${course.image}" alt="${course.title}">
             <div class="card-content">
                 <h3 class="card-title">${course.title}</h3>
                 <p class="card-description">${course.description}</p>
